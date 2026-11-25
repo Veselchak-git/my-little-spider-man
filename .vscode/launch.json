@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:my-little-spider-man}",
+      "name": "Debug MyLittleSpiderMan",
+      "target": "MyLittleSpiderMan",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug MyLittleSpiderMan"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:my-little-spider-man}",
+      "name": "Release MyLittleSpiderMan",
+      "target": "MyLittleSpiderMan",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release MyLittleSpiderMan"
+    }
+  ]
+}

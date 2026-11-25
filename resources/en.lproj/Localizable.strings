@@ -1,0 +1,39 @@
+"app.name" = "My Little Spider-Man";
+"status.tooltip" = "My Little Spider-Man";
+
+"menu.appear_now" = "Appear Now";
+"menu.hang_still" = "Hang Still";
+"menu.settings" = "Settings…";
+"menu.quit" = "Quit";
+
+"settings.title" = "My Little Spider-Man";
+"settings.hang_duration" = "Time on screen, sec";
+"settings.appear_delay" = "Delay before appear, sec";
+"settings.web_length" = "Web length";
+"settings.spider_scale" = "Spider size, %";
+"settings.skin" = "Skin";
+"settings.web_style" = "Web style";
+"settings.language" = "Language";
+"settings.emotions_enabled" = "Enable emotions";
+"settings.emotion_interval" = "Emotion interval, sec";
+
+"web.classic" = "Classic";
+"web.silk" = "Silk";
+"web.twisted" = "Twisted";
+"web.glow" = "Glow";
+"web.venom" = "Venom";
+
+"language.system" = "System";
+"language.english" = "English";
+"language.russian" = "Russian";
+
+"skin.miles" = "Miles Morales";
+"skin.advanced" = "Advanced Suit";
+"skin.prowler" = "Purple Reign";
+"skin.tech" = "2020 Suit";
+"skin.crimson" = "Crimson Cowl";
+"skin.uptown" = "Uptown Pride";
+"skin.programmable" = "Programmable Matter";
+"skin.future" = "Spider-Man 2099";
+"skin.hoodie" = "Street Hoodie";
+"skin.classic" = "Classic";

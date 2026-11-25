@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "swiftlang.swift-vscode",
+    "llvm-vs-code-extensions.lldb-dap",
+    "EditorConfig.EditorConfig"
+  ],
+  "unwantedRecommendations": [
+    "sswg.swift-lang"
+  ]
+}

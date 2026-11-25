@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "**/.build": true,
+    "**/.swiftpm": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    "**/.build": true,
+    "**/.swiftpm": true,
+    "**/dist": true
+  },
+  "[swift]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "swiftlang.swift-vscode"
+  },
+  "swift.SDK": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+  "swift.sourcekit-lsp.serverPath": "/Library/Developer/CommandLineTools/usr/bin/sourcekit-lsp",
+  "swift.sourcekit-lsp.backgroundIndexing": "on",
+  "swift.debugger.debugAdapter": "lldb-dap",
+  "swift.debugger.setupCodeLLDB": "never",
+  "lldb-dap.executable-path": "/Library/Developer/CommandLineTools/usr/bin/lldb-dap"
+}

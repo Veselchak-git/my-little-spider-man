@@ -1,0 +1,39 @@
+"app.name" = "My Little Spider-Man";
+"status.tooltip" = "My Little Spider-Man";
+
+"menu.appear_now" = "Появиться сейчас";
+"menu.hang_still" = "Висеть на месте";
+"menu.settings" = "Настройки…";
+"menu.quit" = "Выйти";
+
+"settings.title" = "My Little Spider-Man";
+"settings.hang_duration" = "Время на экране, сек";
+"settings.appear_delay" = "Задержка появления, сек";
+"settings.web_length" = "Длина паутины";
+"settings.spider_scale" = "Размер паучка, %";
+"settings.skin" = "Скин";
+"settings.web_style" = "Стиль паутины";
+"settings.language" = "Язык";
+"settings.emotions_enabled" = "Включить эмоции";
+"settings.emotion_interval" = "Интервал эмоций, сек";
+
+"web.classic" = "Классическая";
+"web.silk" = "Шёлк";
+"web.twisted" = "Скрученная";
+"web.glow" = "Светящаяся";
+"web.venom" = "Venom";
+
+"language.system" = "Системный";
+"language.english" = "English";
+"language.russian" = "Русский";
+
+"skin.miles" = "Майлз Моралес";
+"skin.advanced" = "Продвинутый";
+"skin.prowler" = "Purple Reign";
+"skin.tech" = "Костюм 2020";
+"skin.crimson" = "Багровый капюшон";
+"skin.uptown" = "Uptown Pride";
+"skin.programmable" = "Программируемая материя";
+"skin.future" = "Человек-паук 2099";
+"skin.hoodie" = "Худи";
+"skin.classic" = "Классический";

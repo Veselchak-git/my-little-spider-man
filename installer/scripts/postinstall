@@ -1,0 +1,21 @@
+#!/bin/bash
+set -euo pipefail
+
+APP_PATH="/Applications/My Little Spider-Man.app"
+
+# Ensure the installed bundle is executable for all users.
+if [[ -d "$APP_PATH" ]]; then
+  chmod -R a+rX "$APP_PATH"
+  chmod a+x "$APP_PATH/Contents/MacOS/MyLittleSpiderMan" 2>/dev/null || true
+fi
+
+# Launch for the logged-in console user (Installer runs as root).
+CONSOLE_USER="$(stat -f%Su /dev/console 2>/dev/null || true)"
+if [[ -n "${CONSOLE_USER:-}" && "$CONSOLE_USER" != "root" ]]; then
+  CONSOLE_UID="$(id -u "$CONSOLE_USER" 2>/dev/null || true)"
+  if [[ -n "${CONSOLE_UID:-}" ]]; then
+    launchctl asuser "$CONSOLE_UID" open "$APP_PATH" >/dev/null 2>&1 || true
+  fi
+fi
+
+exit 0
