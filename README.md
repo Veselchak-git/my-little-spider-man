@@ -1,7 +1,10 @@
 # My Little Spider-Man
 
 Десктопный companion для macOS: чиби Spider-Man периодически спускается с «потолка» монитора на паутине. Меню в статус-баре, настройки, скины и стили паутины. Интерфейс на русском и английском.
-![Uploading Снимок экрана — 2026-11-26 в 00.22.56.png…]()
+
+<p align="center">
+  <img src="docs/screenshot.jpg" alt="My Little Spider-Man on the desktop" width="360">
+</p>
 
 ## Стек
 
@@ -66,6 +69,7 @@ src/
   model/        # настройки, скины, контроллер позы, L10n
   ui/           # SpiderView (extensions), panel, settings
 resources/      # Info.plist, en/ru.lproj
+docs/           # скриншоты для README
 scripts/        # buildApp.sh
 installer/      # buildInstaller.sh, distribution, postinstall UI
 ```
